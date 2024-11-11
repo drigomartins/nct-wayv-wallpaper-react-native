@@ -1,0 +1,41 @@
+{
+  "expo": {
+    "name": "NCT WayV Wallpaper",
+    "slug": "dark-knight-nct-wayv-wallpaper",
+    "version": "1.0.1",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.drigo.oliveira94.darkknightnctwayvwallpaper",
+      "versionCode": 2
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "c8b718ec-9f0b-4df3-8d7a-f9fbdc708103"
+      }
+    }
+  },
+  "react-native-google-mobile-ads": {
+    "android_app_id": "ca-app-pub-6202074218659375~9190266407",
+    "ios_app_id": "ca-app-pub-6202074218659375~9190266407"
+  }
+}

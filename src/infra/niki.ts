@@ -1,0 +1,148 @@
+import { WallpaperItem } from '@/domain';
+
+export const niki: WallpaperItem[] = [
+  {
+    name: 'Ni-ki',
+    link: 'https://i.pinimg.com/736x/83/eb/c5/83ebc583fe8dec99e74ed147f904a5d0.jpg',
+    category: 'Ni-ki',
+    star: false,
+  },
+  {
+    name: 'Ni-ki',
+    link: 'https://i.pinimg.com/736x/74/68/a3/7468a390d196fd25681b017a2f9d4b6f.jpg',
+    category: 'Ni-ki',
+    star: false,
+  },
+  {
+    name: 'Ni-ki',
+    link: 'https://i.pinimg.com/564x/50/29/8f/50298f88edb253b7efbe8bb6bfc8ff00.jpg',
+    category: 'Ni-ki',
+    star: false,
+  },
+  {
+    name: 'Ni-ki',
+    link: 'https://i.pinimg.com/564x/01/43/84/014384bcde8362f4efd8598596aba04b.jpg',
+    category: 'Ni-ki',
+    star: false,
+  },
+  {
+    name: 'Ni-ki',
+    link: 'https://i.pinimg.com/564x/3b/c5/b8/3bc5b810f616b64820ebf19d41c8046a.jpg',
+    category: 'Ni-ki',
+    star: false,
+  },
+  {
+    name: 'Ni-ki',
+    link: 'https://i.pinimg.com/736x/f3/df/8d/f3df8d0d6e30c5a462eff420eb73180d.jpg',
+    category: 'Ni-ki',
+    star: false,
+  },
+  {
+    name: 'Ni-ki',
+    link: 'https://i.pinimg.com/736x/11/b7/7c/11b77c85c5a840aa1746259ac495a64a.jpg',
+    category: 'Ni-ki',
+    star: false,
+  },
+  {
+    name: 'Ni-ki',
+    link: 'https://i.pinimg.com/736x/3b/cc/f9/3bccf9fac059ccaf7dceadb849484164.jpg',
+    category: 'Ni-ki',
+    star: false,
+  },
+  {
+    name: 'Ni-ki',
+    link: 'https://i.pinimg.com/736x/1f/9f/8a/1f9f8a431b028a2efa59b6ab60250a79.jpg',
+    category: 'Ni-ki',
+    star: false,
+  },
+  {
+    name: 'Ni-ki',
+    link: 'https://i.pinimg.com/736x/7d/0c/e6/7d0ce66a02f0e0e8df6eb72370ad0ba7.jpg',
+    category: 'Ni-ki',
+    star: false,
+  },
+  {
+    name: 'Ni-ki',
+    link: 'https://i.pinimg.com/736x/f2/69/96/f2699626288b6b4a93d94d6b3ff404a9.jpg',
+    category: 'Ni-ki',
+    star: false,
+  },
+  {
+    name: 'Ni-ki',
+    link: 'https://i.pinimg.com/736x/5c/08/ec/5c08ec1f054d97ba9147c8d4ad11ef6d.jpg',
+    category: 'Ni-ki',
+    star: false,
+  },
+  {
+    name: 'Ni-ki',
+    link: 'https://i.pinimg.com/736x/f2/65/90/f26590f34c26326b2d01fc97ce5066e3.jpg',
+    category: 'Ni-ki',
+    star: false,
+  },
+  {
+    name: 'Ni-ki',
+    link: 'https://i.pinimg.com/736x/c5/18/64/c51864ba68349c53de224ede13c90071.jpg',
+    category: 'Ni-ki',
+    star: false,
+  },
+  {
+    name: 'Ni-ki',
+    link: 'https://i.pinimg.com/564x/4b/6d/d1/4b6dd18eca4f02ed874700a50171cc60.jpg',
+    category: 'Ni-ki',
+    star: false,
+  },
+  {
+    name: 'Ni-ki',
+    link: 'https://i.pinimg.com/736x/e3/94/30/e39430ec31812c5a886bdaafeba99296.jpg',
+    category: 'Ni-ki',
+    star: false,
+  },
+  {
+    name: 'Ni-ki',
+    link: 'https://i.pinimg.com/736x/0f/a3/09/0fa309cf30ec84744481d34599ac84c7.jpg',
+    category: 'Ni-ki',
+    star: false,
+  },
+  {
+    name: 'Ni-ki',
+    link: 'https://i.pinimg.com/736x/84/22/b6/8422b6141a62687fc402a3e7c3e346e5.jpg',
+    category: 'Ni-ki',
+    star: false,
+  },
+  {
+    name: 'Ni-ki',
+    link: 'https://i.pinimg.com/736x/7e/95/6a/7e956af0df560ce62bf1d6a8da953f8a.jpg',
+    category: 'Ni-ki',
+    star: false,
+  },
+  {
+    name: 'Ni-ki',
+    link: 'https://i.pinimg.com/564x/82/f1/72/82f17287c5d60540ae4a910db092a07b.jpg',
+    category: 'Ni-ki',
+    star: false,
+  },
+  {
+    name: 'Ni-ki',
+    link: 'https://i.pinimg.com/736x/fe/bb/39/febb3929ae2c2b1c113aebc0722872c2.jpg',
+    category: 'Ni-ki',
+    star: false,
+  },
+  {
+    name: 'Ni-ki',
+    link: 'https://i.pinimg.com/736x/82/12/fb/8212fba527ccf6e6ad5652f1011d5ba0.jpg',
+    category: 'Ni-ki',
+    star: false,
+  },
+  {
+    name: 'Ni-ki',
+    link: 'https://i.pinimg.com/736x/50/08/c0/5008c0691873c9e2b20ccfbe1153c30a.jpg',
+    category: 'Ni-ki',
+    star: false,
+  },
+  {
+    name: 'Ni-ki',
+    link: 'https://i.pinimg.com/736x/27/a4/07/27a4078e127c7af1f6cf3750e2225f42.jpg',
+    category: 'Ni-ki',
+    star: false,
+  },
+];
