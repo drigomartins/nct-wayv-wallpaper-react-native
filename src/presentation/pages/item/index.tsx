@@ -30,7 +30,7 @@ import {
 import { Props } from './type';
 
 const interstitial = InterstitialAd.createForAdRequest(
-  'ca-app-pub-6202074218659375/8663782674'
+  'ca-app-pub-6202074218659375/1282990252'
 );
 
 export const Item: React.FC<Props> = ({ navigation }) => {
@@ -42,7 +42,6 @@ export const Item: React.FC<Props> = ({ navigation }) => {
     type: 'lock' | 'system' | 'both' = 'both'
   ) => {
     try {
-      interstitial.loaded && interstitial.show();
       setModalVisible(!modalVisible);
       setLoading(true);
       const jsonValue = JSON.stringify(wallpaper);
@@ -58,6 +57,11 @@ export const Item: React.FC<Props> = ({ navigation }) => {
       setLoading(false);
       return null;
     }
+  };
+
+  const openModal = () => {
+    setModalVisible(!modalVisible);
+    interstitial.loaded && interstitial.show();
   };
 
   useEffect(() => {
@@ -86,7 +90,7 @@ export const Item: React.FC<Props> = ({ navigation }) => {
             uri: wallpaper.link,
           }}
         />
-        <PressableView onPress={() => setModalVisible(!modalVisible)}>
+        <PressableView onPress={() => openModal()}>
           <TextSetView theme={theme}>Set as Wallpaper</TextSetView>
         </PressableView>
       </ContainerView>
